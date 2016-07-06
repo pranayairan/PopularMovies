@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="action_sortby">Sort By</string>
+    <string name="title_activity_movie_detail">Movie Details</string>
+
+    <string name="popularity">Popularity</string>
+    <string name="topRated">Top Rated</string>
+    <string name="favorites">Favorites</string>
+
+    <string name="movie_backdrop">Movie Backdrop</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="release_date">Release date:</string>
+    <string name="user_rating">Rating:</string>
+    <string name="overview">Overview</string>
+    <string name="movie_trailor">Trailors</string>
+    <string name="trailor1">Trailor1</string>
+    <string name="trailor2">Trailor2</string>
+    <string name="review">Reviews</string>
+
+</resources>

@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.binarybricks.pragya.popularmovies.MoviePosters">
+    <item
+        android:id="@+id/action_sortby"
+        android:orderInCategory="100"
+        android:title="@string/action_sortby"
+        app:showAsAction="never">
+        <menu>
+            <group android:id="@+id/action_sortGroup"
+                android:checkableBehavior="none">
+                <item android:id="@+id/popularity"
+                    android:title="@string/popularity">
+                </item>
+                <item
+                    android:id="@+id/topRated"
+                    android:title="@string/topRated">
+                </item>
+                <item
+                    android:id="@+id/favourites"
+                    android:title="@string/favorites"></item>
+            </group>
+        </menu>
+    </item>
+</menu>
